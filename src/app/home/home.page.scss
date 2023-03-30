@@ -1,7 +1,30 @@
-ion-item {
-  --padding-start: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+ion-title{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 145, 0);
 }
 
-img{
-  width: 120px;
+ion-button{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+ion-thumbnail {
+  height: 230px;
+  width: 210px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+img {
+  border-radius: 50%;
+  box-shadow: -8px 8px 15px 1px rgb(17, 30, 44);
+}
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 10px;
+  color: #ff9100;;
 }
