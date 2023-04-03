@@ -15,8 +15,7 @@ export class Ctt1Page implements OnInit {
 
   constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   nav(rota: string) {
     this.router.navigate([rota])
