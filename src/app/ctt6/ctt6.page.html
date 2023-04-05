@@ -8,6 +8,22 @@
   </ion-buttons>
 </ion-toolbar>
 </ion-header>
-<ion-content [fullscreen]="true">
 
+<ion-content [fullscreen]="true" class="bck">
+<div class="container">
+    <ion-thumbnail slot="start">
+      <img alt="Img_ctt2" src={{ctt6_Img}}/>
+    </ion-thumbnail>
+    <ion-grid>
+      <ion-row class="firstrow">
+        <ion-label><h1>{{ctt6_name}}</h1></ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-label><h1>{{ctt6_email}}</h1></ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-label><h1>{{ctt6_prof}}</h1></ion-label>
+      </ion-row>
+    </ion-grid>
+</div>
 </ion-content>

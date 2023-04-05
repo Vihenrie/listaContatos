@@ -15,6 +15,11 @@ export class Ctt6Page implements OnInit {
 
   constructor(private router: Router) { }
 
+  ctt6_name:String = "Matheus Fogaça"
+  ctt6_Img:String = "https://fotografiamais.com.br/wp-content/uploads/2018/09/retrato-iluminacao-fotografia.jpg"
+  ctt6_email:String = "matheusfogaca@picpay.com"
+  ctt6_prof:String = "Chefe de Cozinha"
+
   ngOnInit() {
   }
 

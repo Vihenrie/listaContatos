@@ -15,6 +15,11 @@ export class Ctt5Page implements OnInit {
 
   constructor(private router: Router) { }
 
+  ctt5_name:String = "Rebeca Andreoli"
+  ctt5_Img:String = "https://fotodicasbrasil.com.br/wp-content/uploads/2016/08/Retrato-Petro-e-Branco-Lente-perfeita-para-retratos.jpg"
+  ctt5_email:String = "rebecaandreoli@ubisof.com"
+  ctt5_prof:String = "Modelo"
+
   ngOnInit() {
   }
 

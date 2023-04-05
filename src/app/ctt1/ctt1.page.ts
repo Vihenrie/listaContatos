@@ -17,9 +17,10 @@ export class Ctt1Page implements OnInit {
 
   ngOnInit() {}
 
-  ctt1_Name:String = "Vincius Henrique"
+  ctt1_name:String = "Vincius Henrique"
   ctt1_email:String = "viniciushenrique@gmail.com"
   ctt1_Img:String = "https://cdn-sites-images.46graus.com/files/photos/78b7999d/e483d4c5-44c6-4c16-907a-34a41f8676c0/0014-lucca_retrato-683x1024.jpg"
+  ctt1_prof:String = "Programador"
 
   nav(rota: string) {
     this.router.navigate([rota])

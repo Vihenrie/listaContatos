@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+ion-title{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #1b2f31;
+}
+ion-icon{
+  color: #1b2f31;
+  height: 3em;
+  width: 8em;
+}
+ion-button{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: large;
+}
+ion-thumbnail {
+  height: 430px;
+  width: 410px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+ion-grid{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-flow: column;
+}
+img {
+  border-radius: 50%;
+  box-shadow: -8px 8px 15px 1px rgb(17, 30, 44);
+}
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 10px;
+  color: #1b2f31;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+}
+h2 {
+  padding-left: 10px;
+  font-size: 32px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-flow: column;
+  padding-top: 20px;
+}
+.firstrow{
+  padding-top: 50px;
+}
+.bck{
+  --background: url(https://w0.peakpx.com/wallpaper/848/558/HD-wallpaper-white-poligami-aurel-minimal-poli-poly.jpg) 0 0/100% 100% no-repeat;
+}

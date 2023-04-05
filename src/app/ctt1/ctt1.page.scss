@@ -5,13 +5,11 @@ ion-title{
   font-family: 'Roboto', sans-serif;
   color: #1b2f31;
 }
-
 ion-icon{
   color: #1b2f31;
   height: 3em;
   width: 8em;
 }
-
 ion-button{
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
@@ -33,6 +31,12 @@ ion-thumbnail {
 }
 ion-grid{
   padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-flow: column;
 }
 img {
   border-radius: 50%;
@@ -46,12 +50,10 @@ h1 {
   font-family: 'Roboto', sans-serif;
   padding-bottom: 20px;
 }
-
 h2 {
   padding-left: 10px;
   font-size: 32px;
 }
-
 .container{
   display: flex;
   align-items: center;
@@ -60,4 +62,10 @@ h2 {
   width: 100%;
   flex-flow: column;
   padding-top: 20px;
+}
+.firstrow{
+  padding-top: 50px;
+}
+.bck{
+  --background: url(https://w0.peakpx.com/wallpaper/848/558/HD-wallpaper-white-poligami-aurel-minimal-poli-poly.jpg) 0 0/100% 100% no-repeat;
 }
