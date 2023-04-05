@@ -3,12 +3,20 @@
 ion-title{
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
-  color: rgb(255, 145, 0);
+  color: #1b2f31;
 }
 
 ion-button{
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: large;
 }
 
 ion-thumbnail {
@@ -26,5 +34,10 @@ h1 {
   font-weight: bold;
   font-size: 22px;
   padding-left: 10px;
-  color: #ff9100;;
+  color: #1b2f31;
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 32px;
 }

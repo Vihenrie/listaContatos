@@ -1,11 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header (click)="nav('../home')">
   <ion-toolbar>
-    <ion-title>Vincius Henrique</ion-title>
-  </ion-toolbar>
+    <ion-title slot="primary">Vinicius Henrique</ion-title>
+  <ion-buttons slot="start">
+    <ion-button>
+      <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <ion-button (click)="nav('../home')"></ion-button>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img alt="Img_ctt2" src={{ctt1_Img}}/>
+    </ion-thumbnail>
+    <ion-grid>
+      <ion-row>
+        <ion-label><h1></h1></ion-label>
+      </ion-row>
+      <ion-row>
+        <br>
+      </ion-row>
+      <ion-row>
+        <ion-label><h2>#2</h2></ion-label>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
 
 </ion-content>
