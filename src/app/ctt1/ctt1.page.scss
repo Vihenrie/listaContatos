@@ -31,6 +31,9 @@ ion-thumbnail {
   padding-left: 15px;
   padding-bottom: 15px;
 }
+ion-grid{
+  padding-top: 20px;
+}
 img {
   border-radius: 50%;
   box-shadow: -8px 8px 15px 1px rgb(17, 30, 44);
@@ -40,6 +43,8 @@ h1 {
   font-size: 22px;
   padding-left: 10px;
   color: #1b2f31;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -54,4 +59,5 @@ h2 {
   height: 100%;
   width: 100%;
   flex-flow: column;
+  padding-top: 20px;
 }
